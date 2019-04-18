@@ -1,6 +1,8 @@
-# linenotify
+linenotify
+---
 
-## usage command line
+## usage
+### command line
 ``$ python3 linenotify.py [-h] [--test] [-m MSG] [-f FILE] line_token``
 
     positional arguments:  
@@ -12,10 +14,18 @@
       -m MSG, --msg MSG     notify message  
       -f FILE, --file FILE  image file (jpeg or png)  
 
-## usage from python
+### from python
 ``` python
 import linenotify
 
 line_notify = LineNotify(token)
 line_notify.msg(msg)
 ```
+
+## Licence
+
+[MIT](https://github.com/tcnksm/tool/blob/master/LICENCE)
+
+## Author
+
+[ryobeam](https://github.com/ryobeam)
