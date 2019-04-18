@@ -30,6 +30,7 @@ class LineNotify:
   
     def status(self):
         headers = {'Authorization': 'Bearer ' + self.token}
+
         r = requests.get('https://notify-api.line.me/api/status', headers=headers)
         return r.text
 
