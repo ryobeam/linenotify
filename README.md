@@ -24,7 +24,7 @@ line_notify.msg(msg)
 
 ## Licence
 
-[MIT](https://github.com/tcnksm/tool/blob/master/LICENCE)
+MIT
 
 ## Author
 
