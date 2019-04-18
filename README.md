@@ -13,7 +13,7 @@ optional arguments:
   -f FILE, --file FILE  image file (jpeg or png)
 
 ## usage python
-import linenotify
+    import linenotify
 
-line_notify = LineNotify(token)
-line_notify.msg(msg)
+    line_notify = LineNotify(token)
+    line_notify.msg(msg)
