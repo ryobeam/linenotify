@@ -1,7 +1,7 @@
 # linenotify
 
 ## usage command line
-``linenotify.py [-h] [--test] [-m MSG] [-f FILE] line_token``
+``$ python3 linenotify.py [-h] [--test] [-m MSG] [-f FILE] line_token``
 
     positional arguments:  
       line_token            LINE access token
