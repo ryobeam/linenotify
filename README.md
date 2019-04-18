@@ -1,19 +1,21 @@
 # linenotify
 
 ## usage command line
-usage: linenotify.py [-h] [--test] [-m MSG] [-f FILE] line_token
+``linenotify.py [-h] [--test] [-m MSG] [-f FILE] line_token``
 
-positional arguments:
-  line_token            LINE access token
+    positional arguments:  
+      line_token            LINE access token
 
-optional arguments:
-  -h, --help            show this help message and exit
-  --test                test mode
-  -m MSG, --msg MSG     notify message
-  -f FILE, --file FILE  image file (jpeg or png)
+    optional arguments:  
+      -h, --help            show this help message and exit  
+      --test                test mode  
+      -m MSG, --msg MSG     notify message  
+      -f FILE, --file FILE  image file (jpeg or png)  
 
-## usage python
-    import linenotify
+## usage from python
+``` python
+import linenotify
 
-    line_notify = LineNotify(token)
-    line_notify.msg(msg)
+line_notify = LineNotify(token)
+line_notify.msg(msg)
+```
