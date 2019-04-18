@@ -59,6 +59,7 @@ def main():
 
     args = p.parse_args()
     token = args.line_token     
+
     if  args.test:
         test_mode(token)
     elif args.msg is not None:
