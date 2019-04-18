@@ -1,6 +1,6 @@
 # linenotify
 
-## usage
+## usage command line
 usage: linenotify.py [-h] [--test] [-m MSG] [-f FILE] line_token
 
 positional arguments:
@@ -12,3 +12,8 @@ optional arguments:
   -m MSG, --msg MSG     notify message
   -f FILE, --file FILE  image file (jpeg or png)
 
+## usage python
+import linenotify
+
+line_notify = LineNotify(token)
+line_notify.msg(msg)
