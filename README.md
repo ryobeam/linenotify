@@ -1,5 +1,7 @@
 linenotify
 ---
+Line へ通知をコマンドラインツールとライブラリ。
+Python から import して使用できる。
 
 ## usage
 ### command line
